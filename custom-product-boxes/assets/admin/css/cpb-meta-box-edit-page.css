@@ -1,0 +1,165 @@
+/**
+ * CSS file for product edit page
+ */
+
+/*#cpb_product_data.woocommerce_options_panel span > label {
+    margin: initial;
+    pointer-events: none;
+}*/
+
+.disableddiv {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+#cpb_product_data .woocommerce-help-tip {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.cpb_gift_boxes_color_field, .cpb_gift_bgcolor_field {
+	display: flex;
+}
+
+#cpb_gift_boxes_color {
+	display: block;
+}
+
+#cpb_product_data .alpha-color-picker-wrap .wp-picker-input-wrap {
+	display: block;
+}
+
+#cpb_product_data .alpha-color-picker-wrap .wp-picker-input-wrap label {
+    margin: initial;
+    width: 195px;
+}
+
+
+#cpb_product_data .alpha-color-picker-wrap {
+	/*float: left;*/
+}
+
+#cpb_product_data .hr-section {
+	display: -webkit-box;
+	display: flex;
+	flex-basis: 100%;
+	-webkit-box-align: center;
+	      align-items: center;
+	font-size: 10.5px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+	top: 8px;
+}
+
+#cpb_product_data .hr-section::before, #cpb_product_data .hr-section::after {
+	content: "";
+	-webkit-box-flex: 1;
+	      flex-grow: 1;
+	background: #eee;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+#cpb_product_data .hr-section::before {
+	margin: 0 16px 0 0;
+}
+
+#cpb_product_data .hr-section::after {
+	margin: 0 0 0 16px;
+}
+
+.wdm_bundle_products_selector p.form-field .wc_products_selections {
+      width: 95% !important;
+      margin-top: 11px;
+}
+
+.wdm_bundle_products_selector p.form-field.wdm_product_selector {
+    padding-left: 16px !important;
+}
+.wc-wdm_bundle_products .wdm_bundle_products_info {
+    padding-left: 12px;
+    margin-top: 11px;
+}
+.wdm_bundle_products_selector .product_field_type_title{
+    padding-bottom: 6px;
+}
+
+.prefill_div{
+    display: none;
+}
+
+.prefill_table {
+    display: none;
+    /*margin: 0 1.5% 1.5% 1.5%;*/
+}
+
+.prefill_table td:first-child{
+    text-align: center;
+}
+
+.prefill_qty input{
+    width: 100% !important;
+}
+
+.prefill_table td {
+    padding: 0 10px 5px 10px;
+}
+
+.prefill_table td:first-child{
+    text-align: center;
+    width: 3% !important;
+}
+
+.prefill_table td:nth-child(2) {
+    width: 25% !important;
+}
+
+.prefill_table td:nth-child(3) {
+    width: 2% !important;
+}
+
+.prefill_table td:nth-child(4) {
+    width: 10% !important;
+}
+
+.prefill_table th:nth-child(3) {
+    width: 5% !important;
+}
+
+.prefill_products_holder {
+    width: 100%;
+}
+
+
+#cpb-accordion .cpb_variation_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cpb_variation_main {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+span.cpb_variation_label label {
+    margin: 0px;
+    float: none;
+    overflow-wrap: break-word;
+    display: block;
+}
+.cpb_variation_input {
+	display: block;
+    width: 10%;
+}
+.cpb_variation_label {
+	display: block;
+    width: 90%;
+}
+
+div#cpb-variation-selection {
+	padding-right: 10px;
+	padding-left: 10px;
+}

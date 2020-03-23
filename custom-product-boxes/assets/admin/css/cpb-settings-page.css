@@ -1,0 +1,34 @@
+.form-field label {
+	float: left;
+    width: 150px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.cpb-header{
+    font-weight: bold !important;
+    font-size: 19px !important;
+    color: rgba(35, 40, 45, 0.79);
+}
+
+tr.gift_box_total_hide, tr.add_box_charges_hide {
+	display: none;
+}
+
+.checkbox, .post-categories, .zerosize, fieldset {
+	display: inline-block;
+}
+
+.wdm-notice-p {
+	color:red;
+	display: inherit;
+}
+
+#wdmcpb_old_order_labels {
+    width: 50%;
+    height: 130px;
+}
+
+.wdmcpb_labels_hide {
+    display: none;
+}
